@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZkTestProject_Example' do
+  pod 'ZkTestProject', :path => '../'
+
+  target 'ZkTestProject_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
