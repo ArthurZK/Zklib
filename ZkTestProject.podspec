@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZkTestProject'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of ZkTestProject.'
 
 
@@ -22,6 +22,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 #s.source_files = 'ZkTestProject/Classes/**/*'  ----- 一般导入.h .m 文件
 s.source_files = 'ZkTestProject/Classes/**/*.{h,m}'
-  
+
+
+#所依赖的三方
+s.dependency 'Masonry'#,'~> 2.3'
 
 end

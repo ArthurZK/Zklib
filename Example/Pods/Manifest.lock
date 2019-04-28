@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - ZkTestProject (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - ZkTestProject (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  ZkTestProject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ZkTestProject: b47bb6cd61b6c96dba44e1915ef1bc257fe19a9f
+
+PODFILE CHECKSUM: 45d8606dbc87047c18853bba3c97408166a4d3b5
+
+COCOAPODS: 1.5.3

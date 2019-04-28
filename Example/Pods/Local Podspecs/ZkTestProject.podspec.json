@@ -1,0 +1,27 @@
+{
+  "name": "ZkTestProject",
+  "version": "0.1.0",
+  "summary": "A short description of ZkTestProject.",
+  "description": "#介绍\nTODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zack/ZkTestProject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zack": "384129360@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ArthurZK/Zklib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZkTestProject/Classes/**/*.{h,m}",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}
